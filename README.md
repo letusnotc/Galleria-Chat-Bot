@@ -31,7 +31,7 @@ graph TD
 
 - **Personal Identity Search**: Enrollment system captures your face photos and generates unique embeddings.
 - **Natural Language Chat**: Ask the AI anything (e.g., "Show me photos where I enjoyed Holi festival").
-- **Multimodal Search**: Maps text queries directly to visual content using state-of-the-art vector embeddings.
+- **State-of-the-Art Embeddings**: Powered by the **recently launched `google-embedding-2-preview`** model, enabling a unified vector space for highly accurate multimodal search.
 - **Smart Intent Detection**: Automatically distinguishes between general queries and personal identity searches.
 - **Cloud Sync**: Securely store and index your life's moments with Cloudinary and MongoDB.
 
@@ -45,7 +45,7 @@ graph TD
 | **Backend** | Node.js, Express |
 | **Database** | MongoDB (Mongoose) |
 | **AI Processing** | Python 3.11+, DeepFace (Facenet512) |
-| **Generative AI** | Google Gemini (Embedding v2, Flash 2.5) |
+| **Generative AI** | Google Gemini (**embedding-2-preview**, Flash 2.5) |
 | **Storage** | Cloudinary |
 
 ---

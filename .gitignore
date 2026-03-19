@@ -1,0 +1,51 @@
+# dependencies
+node_modules/
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Backend
+server/node_modules/
+server/.env
+server/tmp/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+.env
+
+# Native
+ios/
+android/
+.kotlin/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+.metro-health-check*
+
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS/OSX
+.DS_Store
+*.pem
+Thumbs.db
+
+# local env files
+.env*.local
+
+# typescript
+*.tsbuildinfo
